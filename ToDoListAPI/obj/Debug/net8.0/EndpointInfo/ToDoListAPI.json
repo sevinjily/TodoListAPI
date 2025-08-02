@@ -14,21 +14,41 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/TodoItem"
+                "$ref": "#/components/schemas/TodoItemDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/TodoItem"
+                "$ref": "#/components/schemas/TodoItemDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/TodoItem"
+                "$ref": "#/components/schemas/TodoItemDTO"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Todo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -78,32 +98,19 @@
   },
   "components": {
     "schemas": {
-      "TodoItem": {
+      "TodoItemDTO": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
           "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
             "type": "string",
             "nullable": true
           },
           "isCompleted": {
             "type": "boolean"
           },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
           "dueDate": {
             "type": "string",
-            "format": "date-time",
-            "nullable": true
+            "format": "date-time"
           }
         },
         "additionalProperties": false

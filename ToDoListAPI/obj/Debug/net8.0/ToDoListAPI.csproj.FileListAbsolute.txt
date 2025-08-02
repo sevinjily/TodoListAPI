@@ -17,7 +17,6 @@ C:\Users\Asus\source\repos\ToDoListAPI\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.
 C:\Users\Asus\source\repos\ToDoListAPI\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.csproj.CoreCompileInputs.cache
 C:\Users\Asus\source\repos\ToDoListAPI\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Asus\source\repos\ToDoListAPI\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Asus\source\repos\ToDoListAPI\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.sourcelink.json
 C:\Users\Asus\source\repos\ToDoListAPI\ToDoListAPI\obj\Debug\net8.0\scopedcss\bundle\ToDoListAPI.styles.css
 C:\Users\Asus\source\repos\ToDoListAPI\ToDoListAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Asus\source\repos\ToDoListAPI\ToDoListAPI\obj\Debug\net8.0\staticwebassets.development.json

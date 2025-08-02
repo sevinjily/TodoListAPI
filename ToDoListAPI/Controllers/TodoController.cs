@@ -17,10 +17,16 @@ namespace ToDoListAPI.Controllers
             _todoItemService = todoItemService;
         }
         [HttpPost]
-        public IActionResult Add([FromBody] TodoItemDTO item)
+        public async Task<IActionResult> Add([FromBody] TodoItemDTO item)
         {
-            _todoItemService.Add(item);
+          await  _todoItemService.AddAsync(item);
             return Ok("Əlavə olundu");
+        }
+        [HttpDelete]
+        public  IActionResult Delete([FromQuery]Guid id)
+        {
+             _todoItemService.Delete(id);
+            return Ok("Ugurla Silindi");
         }
 
     }

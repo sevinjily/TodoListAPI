@@ -10,20 +10,24 @@ namespace Business
         private readonly ITodoItemRepository _todoRepository;
         private readonly IMapper _mapper;
 
-        public TodoItemManager(IMapper mapper)
+
+
+        public TodoItemManager(ITodoItemRepository todoRepository, IMapper mapper)
         {
+            _todoRepository = todoRepository;
             _mapper = mapper;
         }
 
-        public TodoItemManager(ITodoItemRepository todoRepository)
-        {
-            _todoRepository = todoRepository;
-        }
-
-        public void Add(TodoItemDTO todoItem)
+        public async Task AddAsync(TodoItemDTO todoItem)
         {
             var item = _mapper.Map<TodoItem>(todoItem);
-            _todoRepository.AddAsync(item);  
+            item.CreatedAt = DateTime.Now;
+          await  _todoRepository.AddAsync(item);
+        }
+
+        public void Delete(Guid id)
+        {
+             _todoRepository.Delete(id);
         }
     }
 }

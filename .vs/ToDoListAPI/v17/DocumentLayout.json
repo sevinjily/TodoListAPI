@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\todolistapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\dataaccess\\concrete\\eftodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\eftodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19F4AF67-BA68-46FD-A621-95A52CFB4C1B}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\business\\todoitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,36 +19,44 @@
       "RelativeMoniker": "D:0:0:{19F4AF67-BA68-46FD-A621-95A52CFB4C1B}|Business\\Business.csproj|solutionrelative:business\\itodoitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\todolistapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\dataaccess\\abstract\\itodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\itodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB8D8F2-0AC4-49F0-9231-C839F4F33138}|Entities\\Entities.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\entities\\model\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB8D8F2-0AC4-49F0-9231-C839F4F33138}|Entities\\Entities.csproj|solutionrelative:entities\\model\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19F4AF67-BA68-46FD-A621-95A52CFB4C1B}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\business\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19F4AF67-BA68-46FD-A621-95A52CFB4C1B}|Business\\Business.csproj|solutionrelative:business\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19F4AF67-BA68-46FD-A621-95A52CFB4C1B}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{19F4AF67-BA68-46FD-A621-95A52CFB4C1B}|Business\\Business.csproj|solutionrelative:business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\dataaccess\\concrete\\eftodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\eftodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\dataaccess\\abstract\\itodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\itodoitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\dataaccess\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EB8D8F2-0AC4-49F0-9231-C839F4F33138}|Entities\\Entities.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\entities\\dto\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EB8D8F2-0AC4-49F0-9231-C839F4F33138}|Entities\\Entities.csproj|solutionrelative:entities\\dto\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EB8D8F2-0AC4-49F0-9231-C839F4F33138}|Entities\\Entities.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\entities\\model\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EB8D8F2-0AC4-49F0-9231-C839F4F33138}|Entities\\Entities.csproj|solutionrelative:entities\\model\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\todolistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\todolistapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\todolistapi\\todolistapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\todolistapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19F4AF67-BA68-46FD-A621-95A52CFB4C1B}|Business\\Business.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19F4AF67-BA68-46FD-A621-95A52CFB4C1B}|Business\\Business.csproj|solutionrelative:business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\dataaccess\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EB8D8F2-0AC4-49F0-9231-C839F4F33138}|Entities\\Entities.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -53,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\dataaccess\\migrations\\20250729184808_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20250729184808_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\todolistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{44C9BD39-CF52-4594-A7F9-1CF28A2F2957}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFC877CD-CABC-4CAC-AF3E-AD272D25E348}|DataAccess\\DataAccess.csproj|c:\\users\\asus\\source\\repos\\todolistapi\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -74,128 +82,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Business\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "Business\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T19:14:04.989Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ITodoItemService.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\ITodoItemService.cs",
-              "RelativeDocumentMoniker": "Business\\ITodoItemService.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\ITodoItemService.cs",
-              "RelativeToolTip": "Business\\ITodoItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T16:12:10.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "TodoItemManager.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\TodoItemManager.cs",
               "RelativeDocumentMoniker": "Business\\TodoItemManager.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\TodoItemManager.cs",
               "RelativeToolTip": "Business\\TodoItemManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAEwB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T16:12:10.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Business",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\Business.csproj",
-              "RelativeDocumentMoniker": "Business\\Business.csproj",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\Business.csproj",
-              "RelativeToolTip": "Business\\Business.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-29T16:11:46.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TodoController.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\Controllers\\TodoController.cs",
               "RelativeDocumentMoniker": "ToDoListAPI\\Controllers\\TodoController.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\Controllers\\TodoController.cs",
               "RelativeToolTip": "ToDoListAPI\\Controllers\\TodoController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAApwBUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwBwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T18:29:28.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ToDoListAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\Program.cs",
-              "RelativeToolTip": "ToDoListAPI\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Entities\\Model\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Entities\\Model\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Entities\\Model\\TodoItem.cs",
+              "RelativeToolTip": "Entities\\Model\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T18:34:53.898Z",
+              "WhenOpened": "2025-07-29T15:59:55.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "EFTodoItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\Concrete\\EFTodoItemRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EFTodoItemRepository.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\Concrete\\EFTodoItemRepository.cs",
               "RelativeToolTip": "DataAccess\\Concrete\\EFTodoItemRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T17:44:49.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "ITodoItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\ITodoItemService.cs",
+              "RelativeDocumentMoniker": "Business\\ITodoItemService.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\ITodoItemService.cs",
+              "RelativeToolTip": "Business\\ITodoItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T16:12:10.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ITodoItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\Abstract\\ITodoItemRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Abstract\\ITodoItemRepository.cs",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\Abstract\\ITodoItemRepository.cs",
               "RelativeToolTip": "DataAccess\\Abstract\\ITodoItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T17:44:19.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TodoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\TodoDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccess\\TodoDbContext.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\TodoDbContext.cs",
-              "RelativeToolTip": "DataAccess\\TodoDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ToDoListAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\Program.cs",
+              "RelativeToolTip": "ToDoListAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T17:45:00.795Z",
+              "WhenOpened": "2025-07-29T18:34:53.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Business\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Business\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T19:14:04.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TodoItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Entities\\DTO\\TodoItemDTO.cs",
               "RelativeDocumentMoniker": "Entities\\DTO\\TodoItemDTO.cs",
@@ -208,46 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TodoItem.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Entities\\Model\\TodoItem.cs",
-              "RelativeDocumentMoniker": "Entities\\Model\\TodoItem.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Entities\\Model\\TodoItem.cs",
-              "RelativeToolTip": "Entities\\Model\\TodoItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T15:59:55.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Entities",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Entities\\Entities.csproj",
-              "RelativeDocumentMoniker": "Entities\\Entities.csproj",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Entities\\Entities.csproj",
-              "RelativeToolTip": "Entities\\Entities.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-29T18:58:43.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20250729184808_Init.cs",
-              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\Migrations\\20250729184808_Init.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250729184808_Init.cs",
-              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\Migrations\\20250729184808_Init.cs",
-              "RelativeToolTip": "DataAccess\\Migrations\\20250729184808_Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T18:48:09.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ToDoListAPI\\appsettings.json",
@@ -260,8 +224,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ToDoListAPI",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\ToDoListAPI.csproj",
+              "RelativeDocumentMoniker": "ToDoListAPI\\ToDoListAPI.csproj",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\ToDoListAPI.csproj",
+              "RelativeToolTip": "ToDoListAPI\\ToDoListAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-30T05:57:13.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ToDoListAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ToDoListAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-30T05:57:18.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Business.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\Business.csproj",
+              "RelativeDocumentMoniker": "Business\\Business.csproj",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Business\\Business.csproj",
+              "RelativeToolTip": "Business\\Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-29T16:11:46.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TodoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\TodoDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\TodoDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\TodoDbContext.cs",
+              "RelativeToolTip": "DataAccess\\TodoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T17:45:00.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "DataAccess",
+              "Title": "Entities.csproj",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Entities\\Entities.csproj",
+              "RelativeDocumentMoniker": "Entities\\Entities.csproj",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\Entities\\Entities.csproj",
+              "RelativeToolTip": "Entities\\Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-29T18:58:43.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250729184808_Init.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\Migrations\\20250729184808_Init.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20250729184808_Init.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\Migrations\\20250729184808_Init.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20250729184808_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T18:48:09.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DataAccess.csproj",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\DataAccess.csproj",
               "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\DataAccess\\DataAccess.csproj",
@@ -273,8 +314,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ToDoListAPI",
+              "DocumentIndex": 17,
+              "Title": "ToDoListAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\ToDoListAPI.csproj",
               "RelativeDocumentMoniker": "ToDoListAPI\\ToDoListAPI.csproj",
               "ToolTip": "C:\\Users\\Asus\\source\\repos\\ToDoListAPI\\ToDoListAPI\\ToDoListAPI.csproj",
@@ -283,14 +324,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-07-29T15:56:21.275Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             }
           ]
         },

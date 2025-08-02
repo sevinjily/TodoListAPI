@@ -1,16 +1,18 @@
-using DataAccess;
-using Microsoft.Extensions.Configuration;
-using Microsoft.EntityFrameworkCore;
 using Business;
+using Business.Mapping;
+using DataAccess;
 using DataAccess.Abstract;
 using DataAccess.Concrete;
-using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+
 builder.Services.AddControllers();
+builder.Services.AddAutoMapper(typeof(MappingProfile));//automapper islesin deye
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -25,8 +27,6 @@ builder.Services.AddScoped<ITodoItemRepository, EFTodoItemRepository>();//Depend
 builder.Services.AddScoped<ITodoItemService, TodoItemManager>();
 
 
-builder.Services.AddControllers();//contolleri tanisin deye(elave olundu)
-builder.Services.AddAutoMapper(typeof(Program));//automapper islesin deye
 
 
 var app = builder.Build();
