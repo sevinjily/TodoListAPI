@@ -1,4 +1,5 @@
-﻿using Entities.Model;
+﻿using Entities.DTO;
+using Entities.Model;
 
 namespace DataAccess.Abstract
 {
@@ -6,5 +7,9 @@ namespace DataAccess.Abstract
     {
         Task AddAsync(TodoItem todoItem);
         void Delete(Guid id);
+        Task UpdateAsync(Guid id,TodoItem todoItem);
+        TodoItem Get(Guid id);
+
+
     }
 }

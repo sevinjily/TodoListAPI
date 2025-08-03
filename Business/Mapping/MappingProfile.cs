@@ -8,8 +8,12 @@ namespace Business.Mapping
     {
         public MappingProfile()
         {
-            CreateMap<TodoItem, TodoItemDTO>().ReverseMap();
-         
+            CreateMap<TodoItem, AddTodoItemDTO>().ReverseMap();
+            CreateMap<UpdateTodoItemDTO, TodoItem>()
+     .ForMember(dest => dest.UpdatedAt, opt => opt.MapFrom(src => DateTime.Now))
+     .ForMember(dest => dest.CreatedAt, opt => opt.Ignore()); // <-- bu vacibdir!
+
+
 
         }
     }

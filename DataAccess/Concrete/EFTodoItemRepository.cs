@@ -1,5 +1,6 @@
 ﻿using DataAccess.Abstract;
 using Entities.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete
 {
@@ -29,5 +30,22 @@ namespace DataAccess.Concrete
              _context.SaveChangesAsync();
             }
         }
+
+        public async Task UpdateAsync(Guid id, TodoItem item)
+        {
+            var findItem =await _context.TodoItems.FirstOrDefaultAsync(x => x.Id == id);
+            if(findItem != null)
+            {
+                findItem.Title = item.Title;
+                findItem.IsCompleted = item.IsCompleted;
+                findItem.DueDate = item.DueDate;
+               await _context.SaveChangesAsync();
+            }
+        }
+        public TodoItem Get(Guid id)
+        {
+            return _context.TodoItems.FirstOrDefault(x => x.Id == id);
+        }
+
     }
 }

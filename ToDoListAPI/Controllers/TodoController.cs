@@ -1,7 +1,5 @@
 ﻿using Business;
 using Entities.DTO;
-using Entities.Model;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ToDoListAPI.Controllers
@@ -17,7 +15,7 @@ namespace ToDoListAPI.Controllers
             _todoItemService = todoItemService;
         }
         [HttpPost]
-        public async Task<IActionResult> Add([FromBody] TodoItemDTO item)
+        public async Task<IActionResult> Add([FromBody] AddTodoItemDTO item)
         {
           await  _todoItemService.AddAsync(item);
             return Ok("Əlavə olundu");
@@ -28,6 +26,21 @@ namespace ToDoListAPI.Controllers
              _todoItemService.Delete(id);
             return Ok("Ugurla Silindi");
         }
+        [HttpPut]
+        public async Task<IActionResult> Update([FromQuery]Guid id,[FromBody]UpdateTodoItemDTO item) 
+            { 
+           await _todoItemService.UpdateAsync(id, item);
+            return Ok("Ugurla Yenilendi");
+        
+        }
+        [HttpGet]
+        public IActionResult Get([FromQuery] Guid id)
+        {
+            var result = _todoItemService.Get(id);
+            if (result == null) return NotFound();
+            return Ok(result);
+        }
+
 
     }
 }
